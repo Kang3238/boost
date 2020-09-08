@@ -151,8 +151,119 @@ body{
     align-content: center;
     justify-items: center;
 }
+.m_end .f_content .form_content .form_content_caption{
+    font-weight: 900;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.m_end .f_content .form_content caption{
+    font-weight: 900;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 15px;
+    
+}
+.m_end .f_content .form_content .box_size{
+    width: 100%;
+}
+.m_end .f_content .form_content .box_size_3{
+    display: flex;
+    align-items: center;
+}
+.m_end .f_content .form_content .box_size_3 .basic_3{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #EFEFEF;
+    padding: .2em .5em;
+    margin-top: 5px;
+}
+.m_end .f_content .form_content .box_size_3 button{
+    font-weight: 900;
+    color: white;
+    background-color: #4FC53D;
+    width: 25%;
+    height: 44px;
+    border: 1px solid #EFEFEF;
+    padding: .2em .5em;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.m_end .f_content .form_content .box_size_1{
+    width: 100%;
+    display: flex;
+}
+.m_end .f_content .form_content .box_size_1 select{
+    width: 260px;
+    padding: .5em .5em;
+    border: 1px solid #999;
+    font-size: 12px;
+}
+.m_end .f_content .form_content .box_size_1 select:nth-child(2){
+    margin: 0 10px 0 10px;
+}
+
+.m_end .f_content .form_content .basic{
+    width: 98%;
+    height: 35px;
+    border: 1px solid #EFEFEF;
+    padding: .2em .5em;
+    margin-top: 5px;
+}
 
 
+.m_end .f_content .form_content{
+    background-color: #FBFBFB;
+    width: 100%;
+    height: 100%;
+    
+}
+.m_end .f_content .form_content .form_content_main{
+    padding: 25px;
+}
+
+.m_end .f_content .form_content .box_size_2{
+    width: 1020px;
+    display: flex;
+    font-size: 15px;
+    vertical-align: middle;
+}
+.m_end .f_content .form_content .box_size_4{
+    width: 1020px;
+    display: flex;
+    font-size: 15px;
+}
+.m_end .f_content .form_content .box_size_4 p{
+    margin-right: 80px;
+}
+
+.m_end .f_content .form_content .box_size_5 textarea{
+    width: 1013px;
+    height: 120px;
+    border: 1px solid #EFEFEF;
+    resize: none;
+}
+
+.m_end .f_content .form_content .box_size_2 p:nth-child(2){
+    margin-left: 50px;
+}
+.m_end .f_content .form_content .box_size_6{
+    width: 1020px;
+    display: flex;
+    justify-items: center;
+}
+.m_end .f_content .form_content .box_size_6 button{
+    font-weight: 900;
+    color: white;
+    background-color: #4FC53D;
+    width: 1020px;
+    height: 45px;
+    border: 1px solid #EFEFEF;
+    padding: .2em .5em;
+    margin-top: 20px;
+}
 
 
 html, body, div, span, applet, object, iframe,
